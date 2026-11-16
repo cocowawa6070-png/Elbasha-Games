@@ -60,6 +60,19 @@ jobs:
           unzip -q "$RUNNER_TEMP/gradle.zip" -d "$RUNNER_TEMP"
           echo "$RUNNER_TEMP/gradle-8.13/bin" >> "$GITHUB_PATH"
 
+      - name: Generate Debug Keystore
+        run: |
+          mkdir -p "$HOME/.config/.android"
+          keytool -genkeypair -v \
+            -keystore "$HOME/.config/.android/debug.keystore" \
+            -storepass android \
+            -alias AndroidDebugKey \
+            -keypass android \
+            -dname "CN=Android Debug,O=Android,C=US" \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000
+
       - name: Get SHA-1 fingerprint
         working-directory: ${{ env.PROJECT_DIR }}
         run: gradle --no-daemon --stacktrace signingReport
