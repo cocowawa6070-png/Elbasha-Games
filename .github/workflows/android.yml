@@ -53,16 +53,20 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK
+      - name: Set up Android SDK command-line tools
         uses: android-actions/setup-android@v3
         with:
-          packages: |
-            platform-tools
-            platforms;android-36
-            build-tools;36.0.0
+          # Empty prevents v3 from requesting the deprecated `tools` package.
+          # Install the required SDK packages explicitly in the next step.
+          packages: ''
 
-      - name: Accept Android SDK licenses
-        run: yes | sdkmanager --licenses >/dev/null
+      - name: Install Android SDK packages
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null
+          sdkmanager --install platform-tools
+          sdkmanager --install 'platforms;android-36'
+          sdkmanager --install 'build-tools;36.0.0'
 
       - name: Install Gradle 8.14.4
         shell: bash
@@ -132,3 +136,4 @@ jobs:
           path: ${{ env.PROJECT_DIR }}/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
+          
