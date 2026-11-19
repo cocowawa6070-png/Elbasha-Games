@@ -55,11 +55,14 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: |
+            platform-tools
+            platforms;android-36
+            build-tools;36.0.0
 
-      - name: Accept Android SDK licenses and install build tools
-        run: |
-          yes | sdkmanager --licenses >/dev/null
-          sdkmanager --install "platforms;android-36" "build-tools;36.0.0"
+      - name: Accept Android SDK licenses
+        run: yes | sdkmanager --licenses >/dev/null
 
       - name: Install Gradle 8.14.4
         shell: bash
