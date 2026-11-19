@@ -53,20 +53,22 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK command-line tools
+      - name: Set up Android SDK command-line tools and accept licenses
         uses: android-actions/setup-android@v3
         with:
-          # Empty prevents v3 from requesting the deprecated `tools` package.
-          # Install the required SDK packages explicitly in the next step.
+          cmdline-tools-version: '12266719'
+          # The action handles license acceptance itself. Do not run `yes | sdkmanager` again.
+          accept-android-sdk-licenses: 'true'
+          log-accepted-android-sdk-licenses: 'false'
+          # Empty skips the v3 legacy default package list, which includes removed `tools`.
           packages: ''
 
-      - name: Install Android SDK packages
+      - name: Install required Android SDK packages
         shell: bash
         run: |
-          yes | sdkmanager --licenses >/dev/null
-          sdkmanager --install platform-tools
-          sdkmanager --install 'platforms;android-36'
-          sdkmanager --install 'build-tools;36.0.0'
+          sdkmanager --install platform-tools 'platforms;android-36' 'build-tools;36.0.0'
+          test -x "$ANDROID_HOME/build-tools/36.0.0/apksigner"
+          test -d "$ANDROID_HOME/platforms/android-36"
 
       - name: Install Gradle 8.14.4
         shell: bash
