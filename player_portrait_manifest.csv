@@ -1,0 +1,237 @@
+﻿player_name_en,player_name_ar,position,expected_asset,status
+Manuel Neuer,مانويل نوير,GK,manuel_neuer.webp,MISSING_VERIFIED_ASSET
+Iker Casillas,إيكر كاسياس,GK,iker_casillas.webp,MISSING_VERIFIED_ASSET
+Gianluigi Buffon,جانلويجي بوفون,GK,gianluigi_buffon.webp,MISSING_VERIFIED_ASSET
+Petr Cech,بيتر تشيك,GK,petr_cech.webp,MISSING_VERIFIED_ASSET
+Thibaut Courtois,تيبو كورتوا,GK,thibaut_courtois.webp,MISSING_VERIFIED_ASSET
+Alisson Becker,أليسون بيكر,GK,alisson_becker.webp,MISSING_VERIFIED_ASSET
+Ederson,إيدرسون,GK,ederson.webp,MISSING_VERIFIED_ASSET
+Jan Oblak,يان أوبلاك,GK,jan_oblak.webp,MISSING_VERIFIED_ASSET
+Marc-Andre ter Stegen,مارك أندريه تير شتيجن,GK,marc_andre_ter_stegen.webp,MISSING_VERIFIED_ASSET
+Emiliano Martinez,إيميليانو مارتينيز,GK,emiliano_martinez.webp,MISSING_VERIFIED_ASSET
+David de Gea,دافيد دي خيا,GK,david_de_gea.webp,MISSING_VERIFIED_ASSET
+Keylor Navas,كيلور نافاس,GK,keylor_navas.webp,MISSING_VERIFIED_ASSET
+Hugo Lloris,هوجو لوريس,GK,hugo_lloris.webp,MISSING_VERIFIED_ASSET
+Oliver Kahn,أوليفر كان,GK,oliver_kahn.webp,MISSING_VERIFIED_ASSET
+Peter Schmeichel,بيتر شمايكل,GK,peter_schmeichel.webp,MISSING_VERIFIED_ASSET
+Dida,ديدا,GK,dida.webp,MISSING_VERIFIED_ASSET
+Jose Luis Chilavert,خوسيه لويس تشيلافيرت,GK,jose_luis_chilavert.webp,MISSING_VERIFIED_ASSET
+Rene Higuita,رينيه هيجيتا,GK,rene_higuita.webp,MISSING_VERIFIED_ASSET
+David Raya,دافيد رايا,GK,david_raya.webp,MISSING_VERIFIED_ASSET
+Essam El Hadary,عصام الحضري,GK,essam_el_hadary.webp,MISSING_VERIFIED_ASSET
+Yassine Bounou,ياسين بونو,GK,yassine_bounou.webp,MISSING_VERIFIED_ASSET
+Mike Maignan,مايك مانيان,GK,mike_maignan.webp,MISSING_VERIFIED_ASSET
+Gianluigi Donnarumma,جيانلويجي دوناروما,GK,gianluigi_donnarumma.webp,MISSING_VERIFIED_ASSET
+Unai Simon,أوناي سيمون,GK,unai_simon.webp,MISSING_VERIFIED_ASSET
+Jordan Pickford,جوردان بيكفورد,GK,jordan_pickford.webp,MISSING_VERIFIED_ASSET
+Andre Onana,أندريه أونانا,GK,andre_onana.webp,MISSING_VERIFIED_ASSET
+Samir Handanovic,سمير هاندانوفيتش,GK,samir_handanovic.webp,MISSING_VERIFIED_ASSET
+Edwin van der Sar,إدوين فان دير سار,GK,edwin_van_der_sar.webp,MISSING_VERIFIED_ASSET
+Claudio Bravo,كلاوديو برافو,GK,claudio_bravo.webp,MISSING_VERIFIED_ASSET
+Walter Zenga,والتر زينجا,GK,walter_zenga.webp,MISSING_VERIFIED_ASSET
+Jorge Campos,خورخي كامبوس,GK,jorge_campos.webp,MISSING_VERIFIED_ASSET
+David Seaman,ديفيد سيمان,GK,david_seaman.webp,MISSING_VERIFIED_ASSET
+Victor Valdes,فيكتور فالديس,GK,victor_valdes.webp,MISSING_VERIFIED_ASSET
+Shaka Hislop,شاكا هيسلوب,GK,shaka_hislop.webp,MISSING_VERIFIED_ASSET
+Paolo Maldini,باولو مالديني,DF,paolo_maldini.webp,MISSING_VERIFIED_ASSET
+Sergio Ramos,سيرخيو راموس,DF,sergio_ramos.webp,MISSING_VERIFIED_ASSET
+Virgil van Dijk,فيرجيل فان دايك,DF,virgil_van_dijk.webp,MISSING_VERIFIED_ASSET
+Franco Baresi,فرانكو باريزي,DF,franco_baresi.webp,MISSING_VERIFIED_ASSET
+Alessandro Nesta,أليساندرو نيستا,DF,alessandro_nesta.webp,MISSING_VERIFIED_ASSET
+Fabio Cannavaro,فابيو كانافارو,DF,fabio_cannavaro.webp,MISSING_VERIFIED_ASSET
+Carles Puyol,كارليس بويول,DF,carles_puyol.webp,MISSING_VERIFIED_ASSET
+Rio Ferdinand,ريو فرديناند,DF,rio_ferdinand.webp,MISSING_VERIFIED_ASSET
+Nemanja Vidic,نيمانيا فيديتش,DF,nemanja_vidic.webp,MISSING_VERIFIED_ASSET
+John Terry,جون تيري,DF,john_terry.webp,MISSING_VERIFIED_ASSET
+Gerard Pique,جيرارد بيكيه,DF,gerard_pique.webp,MISSING_VERIFIED_ASSET
+Thiago Silva,تياغو سيلفا,DF,thiago_silva.webp,MISSING_VERIFIED_ASSET
+Ruben Dias,روبن دياز,DF,ruben_dias.webp,MISSING_VERIFIED_ASSET
+Antonio Rudiger,أنطونيو روديجر,DF,antonio_rudiger.webp,MISSING_VERIFIED_ASSET
+Achraf Hakimi,أشرف حكيمي,DF,achraf_hakimi.webp,MISSING_VERIFIED_ASSET
+Trent Alexander-Arnold,ترنت ألكسندر أرنولد,DF,trent_alexander_arnold.webp,MISSING_VERIFIED_ASSET
+Dani Alves,داني ألفيش,DF,dani_alves.webp,MISSING_VERIFIED_ASSET
+Cafu,كافو,DF,cafu.webp,MISSING_VERIFIED_ASSET
+Roberto Carlos,روبرتو كارلوس,DF,roberto_carlos.webp,MISSING_VERIFIED_ASSET
+Marcelo,مارسيلو,DF,marcelo.webp,MISSING_VERIFIED_ASSET
+Ashley Cole,آشلي كول,DF,ashley_cole.webp,MISSING_VERIFIED_ASSET
+Philipp Lahm,فيليب لام,DF,philipp_lahm.webp,MISSING_VERIFIED_ASSET
+Javier Zanetti,خافيير زانيتي,DF,javier_zanetti.webp,MISSING_VERIFIED_ASSET
+Raphael Varane,رافاييل فاران,DF,raphael_varane.webp,MISSING_VERIFIED_ASSET
+William Saliba,ويليام ساليبا,DF,william_saliba.webp,MISSING_VERIFIED_ASSET
+Alessandro Bastoni,أليساندرو باستوني,DF,alessandro_bastoni.webp,MISSING_VERIFIED_ASSET
+Kim Min-jae,كيم مين جاي,DF,kim_min_jae.webp,MISSING_VERIFIED_ASSET
+Ronald Araujo,رونالد أراوخو,DF,ronald_araujo.webp,MISSING_VERIFIED_ASSET
+John Stones,جون ستونز,DF,john_stones.webp,MISSING_VERIFIED_ASSET
+Kyle Walker,كايل ووكر,DF,kyle_walker.webp,MISSING_VERIFIED_ASSET
+Theo Hernandez,ثيو هيرنانديز,DF,theo_hernandez.webp,MISSING_VERIFIED_ASSET
+Andrew Robertson,أندرو روبرتسون,DF,andrew_robertson.webp,MISSING_VERIFIED_ASSET
+Giorgio Chiellini,جورجيو كيليني,DF,giorgio_chiellini.webp,MISSING_VERIFIED_ASSET
+Leonardo Bonucci,ليوناردو بونوتشي,DF,leonardo_bonucci.webp,MISSING_VERIFIED_ASSET
+Jaap Stam,ياب ستام,DF,jaap_stam.webp,MISSING_VERIFIED_ASSET
+Nuno Mendes,نونو مينديز,DF,nuno_mendes.webp,MISSING_VERIFIED_ASSET
+Gabriel Magalhaes,جابرييل ماجالهايس,DF,gabriel_magalhaes.webp,MISSING_VERIFIED_ASSET
+Willian Pacho,ويليان باتشو,DF,willian_pacho.webp,MISSING_VERIFIED_ASSET
+Lilian Thuram,ليليان تورام,DF,lilian_thuram.webp,MISSING_VERIFIED_ASSET
+Marcel Desailly,مارسيل ديسايي,DF,marcel_desailly.webp,MISSING_VERIFIED_ASSET
+Sol Campbell,سول كامبل,DF,sol_campbell.webp,MISSING_VERIFIED_ASSET
+Wael Gomaa,وائل جمعة,DF,wael_gomaa.webp,MISSING_VERIFIED_ASSET
+Lucio,لوسيو,DF,lucio.webp,MISSING_VERIFIED_ASSET
+Carlos Alberto,كارلوس ألبرتو,DF,carlos_alberto.webp,MISSING_VERIFIED_ASSET
+Zinedine Zidane,زين الدين زيدان,MF,zinedine_zidane.webp,MISSING_VERIFIED_ASSET
+Andres Iniesta,أندريس إنييستا,MF,andres_iniesta.webp,MISSING_VERIFIED_ASSET
+Xavi Hernandez,تشافي هيرنانديز,MF,xavi_hernandez.webp,MISSING_VERIFIED_ASSET
+Luka Modric,لوكا مودريتش,MF,luka_modric.webp,MISSING_VERIFIED_ASSET
+Toni Kroos,توني كروس,MF,toni_kroos.webp,MISSING_VERIFIED_ASSET
+Andrea Pirlo,أندريا بيرلو,MF,andrea_pirlo.webp,MISSING_VERIFIED_ASSET
+Steven Gerrard,ستيفن جيرارد,MF,steven_gerrard.webp,MISSING_VERIFIED_ASSET
+Frank Lampard,فرانك لامبارد,MF,frank_lampard.webp,MISSING_VERIFIED_ASSET
+Paul Scholes,بول سكولز,MF,paul_scholes.webp,MISSING_VERIFIED_ASSET
+Patrick Vieira,باتريك فييرا,MF,patrick_vieira.webp,MISSING_VERIFIED_ASSET
+Claude Makelele,كلود ماكيليلي,MF,claude_makelele.webp,MISSING_VERIFIED_ASSET
+Sergio Busquets,سيرجيو بوسكيتس,MF,sergio_busquets.webp,MISSING_VERIFIED_ASSET
+Rodri,رودري,MF,rodri.webp,MISSING_VERIFIED_ASSET
+Kevin De Bruyne,كيفن دي بروين,MF,kevin_de_bruyne.webp,MISSING_VERIFIED_ASSET
+Jude Bellingham,جود بيلينجهام,MF,jude_bellingham.webp,MISSING_VERIFIED_ASSET
+Pedri,بيدري,MF,pedri.webp,MISSING_VERIFIED_ASSET
+Jamal Musiala,جمال موسيالا,MF,jamal_musiala.webp,MISSING_VERIFIED_ASSET
+Federico Valverde,فيديريكو فالفيردي,MF,federico_valverde.webp,MISSING_VERIFIED_ASSET
+Declan Rice,ديكلان رايس,MF,declan_rice.webp,MISSING_VERIFIED_ASSET
+Bruno Fernandes,برونو فيرنانديز,MF,bruno_fernandes.webp,MISSING_VERIFIED_ASSET
+Yaya Toure,يايا توريه,MF,yaya_toure.webp,MISSING_VERIFIED_ASSET
+Clarence Seedorf,كلارنس سيدورف,MF,clarence_seedorf.webp,MISSING_VERIFIED_ASSET
+Kaka,كاكا,MF,kaka.webp,MISSING_VERIFIED_ASSET
+Ronaldinho,رونالدينيو,MF,ronaldinho.webp,MISSING_VERIFIED_ASSET
+Rivaldo,ريفالدو,MF,rivaldo.webp,MISSING_VERIFIED_ASSET
+Michel Platini,ميشيل بلاتيني,MF,michel_platini.webp,MISSING_VERIFIED_ASSET
+Lothar Matthaus,لوثار ماتيوس,MF,lothar_matthaus.webp,MISSING_VERIFIED_ASSET
+Roy Keane,روي كين,MF,roy_keane.webp,MISSING_VERIFIED_ASSET
+Cesc Fabregas,سيسك فابريجاس,MF,cesc_fabregas.webp,MISSING_VERIFIED_ASSET
+Mesut Ozil,مسعود أوزيل,MF,mesut_ozil.webp,MISSING_VERIFIED_ASSET
+David Silva,دافيد سيلفا,MF,david_silva.webp,MISSING_VERIFIED_ASSET
+Bastian Schweinsteiger,باستيان شفاينشتايجر,MF,bastian_schweinsteiger.webp,MISSING_VERIFIED_ASSET
+Mohamed Aboutrika,محمد أبو تريكة,MF,mohamed_aboutrika.webp,MISSING_VERIFIED_ASSET
+Xabi Alonso,تشابي ألونسو,MF,xabi_alonso.webp,MISSING_VERIFIED_ASSET
+Bobby Charlton,بوبي تشارلتون,MF,bobby_charlton.webp,MISSING_VERIFIED_ASSET
+Vitinha,فيتينيا,MF,vitinha.webp,MISSING_VERIFIED_ASSET
+Joao Neves,جواو نيفيز,MF,joao_neves.webp,MISSING_VERIFIED_ASSET
+Joshua Kimmich,جوشوا كيميش,MF,joshua_kimmich.webp,MISSING_VERIFIED_ASSET
+Florian Wirtz,فلوريان فيرتز,MF,florian_wirtz.webp,MISSING_VERIFIED_ASSET
+Martin Odegaard,مارتن أوديجارد,MF,martin_odegaard.webp,MISSING_VERIFIED_ASSET
+Enzo Fernandez,إنزو فيرنانديز,MF,enzo_fernandez.webp,MISSING_VERIFIED_ASSET
+Jay-Jay Okocha,جاي جاي أوكوشا,MF,jay_jay_okocha.webp,MISSING_VERIFIED_ASSET
+Michael Essien,مايكل إيسيان,MF,michael_essien.webp,MISSING_VERIFIED_ASSET
+N'Golo Kante,نجولو كانتي,MF,n_golo_kante.webp,MISSING_VERIFIED_ASSET
+Gennaro Gattuso,جينارو جاتوزو,MF,gennaro_gattuso.webp,MISSING_VERIFIED_ASSET
+Park Ji-sung,بارك جي سونغ,MF,park_ji_sung.webp,MISSING_VERIFIED_ASSET
+Shinji Kagawa,شينجي كاغاوا,MF,shinji_kagawa.webp,MISSING_VERIFIED_ASSET
+Frank Rijkaard,فرانك ريكارد,MF,frank_rijkaard.webp,MISSING_VERIFIED_ASSET
+Lionel Messi,ليونيل ميسي,WG,lionel_messi.webp,MISSING_VERIFIED_ASSET
+Cristiano Ronaldo,كريستيانو رونالدو,WG,cristiano_ronaldo.webp,MISSING_VERIFIED_ASSET
+Mohamed Salah,محمد صلاح,WG,mohamed_salah.webp,MISSING_VERIFIED_ASSET
+Neymar Jr,نيمار,WG,neymar_jr.webp,MISSING_VERIFIED_ASSET
+Riyad Mahrez,رياض محرز,WG,riyad_mahrez.webp,MISSING_VERIFIED_ASSET
+Kylian Mbappe,كيليان مبابي,WG,kylian_mbappe.webp,MISSING_VERIFIED_ASSET
+Vinicius Junior,فينيسيوس جونيور,WG,vinicius_junior.webp,MISSING_VERIFIED_ASSET
+Lamine Yamal,لامين يامال,WG,lamine_yamal.webp,MISSING_VERIFIED_ASSET
+Bukayo Saka,بوكايو ساكا,WG,bukayo_saka.webp,MISSING_VERIFIED_ASSET
+Son Heung-min,سون هيونج مين,WG,son_heung_min.webp,MISSING_VERIFIED_ASSET
+Arjen Robben,أريين روبن,WG,arjen_robben.webp,MISSING_VERIFIED_ASSET
+Franck Ribery,فرانك ريبيري,WG,franck_ribery.webp,MISSING_VERIFIED_ASSET
+Gareth Bale,جاريث بيل,WG,gareth_bale.webp,MISSING_VERIFIED_ASSET
+Eden Hazard,إيدين هازارد,WG,eden_hazard.webp,MISSING_VERIFIED_ASSET
+Luis Figo,لويس فيجو,WG,luis_figo.webp,MISSING_VERIFIED_ASSET
+George Best,جورج بست,WG,george_best.webp,MISSING_VERIFIED_ASSET
+Ryan Giggs,ريان جيجز,WG,ryan_giggs.webp,MISSING_VERIFIED_ASSET
+Luis Suarez,لويس سواريز,WG,luis_suarez.webp,MISSING_VERIFIED_ASSET
+Sadio Mane,ساديو ماني,WG,sadio_mane.webp,MISSING_VERIFIED_ASSET
+Raphinha,رافينيا,WG,raphinha.webp,MISSING_VERIFIED_ASSET
+Ousmane Dembele,عثمان ديمبيلي,WG,ousmane_dembele.webp,MISSING_VERIFIED_ASSET
+Khvicha Kvaratskhelia,خفيتشا كفاراتسخيليا,WG,khvicha_kvaratskhelia.webp,MISSING_VERIFIED_ASSET
+Angel Di Maria,أنخيل دي ماريا,WG,angel_di_maria.webp,MISSING_VERIFIED_ASSET
+Alexis Sanchez,أليكسيس سانشيز,WG,alexis_sanchez.webp,MISSING_VERIFIED_ASSET
+David Beckham,ديفيد بيكهام,WG,david_beckham.webp,MISSING_VERIFIED_ASSET
+Stanley Matthews,ستانلي ماثيوز,WG,stanley_matthews.webp,MISSING_VERIFIED_ASSET
+Hristo Stoichkov,خريستو ستويتشكوف,WG,hristo_stoichkov.webp,MISSING_VERIFIED_ASSET
+Robert Pires,روبير بيريس,WG,robert_pires.webp,MISSING_VERIFIED_ASSET
+Pierre-Emerick Aubameyang,بيير إيمريك أوباميانج,WG,pierre_emerick_aubameyang.webp,MISSING_VERIFIED_ASSET
+Raheem Sterling,رحيم سترلينج,WG,raheem_sterling.webp,MISSING_VERIFIED_ASSET
+Michael Olise,مايكل أوليسيه,WG,michael_olise.webp,MISSING_VERIFIED_ASSET
+Luis Diaz,لويس دياز,WG,luis_diaz.webp,MISSING_VERIFIED_ASSET
+Rayan Cherki,ريان شرقي,WG,rayan_cherki.webp,MISSING_VERIFIED_ASSET
+Nani,ناني,WG,nani.webp,MISSING_VERIFIED_ASSET
+Pedro Rodriguez,بيدرو رودريغيز,WG,pedro_rodriguez.webp,MISSING_VERIFIED_ASSET
+Mohamed Zidan,محمد زيدان,WG,mohamed_zidan.webp,MISSING_VERIFIED_ASSET
+Angel Correa,أنخيل كوريا,WG,angel_correa.webp,MISSING_VERIFIED_ASSET
+Pele,بيليه,ST,pele.webp,MISSING_VERIFIED_ASSET
+Diego Maradona,دييجو مارادونا,ST,diego_maradona.webp,MISSING_VERIFIED_ASSET
+Ronaldo Nazario,رونالدو نازاريو,ST,ronaldo_nazario.webp,MISSING_VERIFIED_ASSET
+Thierry Henry,تييري هنري,ST,thierry_henry.webp,MISSING_VERIFIED_ASSET
+Didier Drogba,ديدييه دروجبا,ST,didier_drogba.webp,MISSING_VERIFIED_ASSET
+Samuel Eto'o,صامويل إيتو,ST,samuel_eto_o.webp,MISSING_VERIFIED_ASSET
+Robert Lewandowski,روبرت ليفاندوفسكي,ST,robert_lewandowski.webp,MISSING_VERIFIED_ASSET
+Karim Benzema,كريم بنزيما,ST,karim_benzema.webp,MISSING_VERIFIED_ASSET
+Erling Haaland,إيرلينج هالاند,ST,erling_haaland.webp,MISSING_VERIFIED_ASSET
+Harry Kane,هاري كين,ST,harry_kane.webp,MISSING_VERIFIED_ASSET
+Zlatan Ibrahimovic,زلاتان إبراهيموفيتش,ST,zlatan_ibrahimovic.webp,MISSING_VERIFIED_ASSET
+Wayne Rooney,واين روني,ST,wayne_rooney.webp,MISSING_VERIFIED_ASSET
+Ruud van Nistelrooy,رود فان نيستلروي,ST,ruud_van_nistelrooy.webp,MISSING_VERIFIED_ASSET
+Marco van Basten,ماركو فان باستن,ST,marco_van_basten.webp,MISSING_VERIFIED_ASSET
+Gerd Muller,جيرد مولر,ST,gerd_muller.webp,MISSING_VERIFIED_ASSET
+Eusebio,يوزيبيو,ST,eusebio.webp,MISSING_VERIFIED_ASSET
+Ferenc Puskas,فيرينتس بوشكاش,ST,ferenc_puskas.webp,MISSING_VERIFIED_ASSET
+Romario,روماريو,ST,romario.webp,MISSING_VERIFIED_ASSET
+Gabriel Batistuta,جابرييل باتيستوتا,ST,gabriel_batistuta.webp,MISSING_VERIFIED_ASSET
+Alan Shearer,آلان شيرر,ST,alan_shearer.webp,MISSING_VERIFIED_ASSET
+Sergio Aguero,سيرخيو أجويرو,ST,sergio_aguero.webp,MISSING_VERIFIED_ASSET
+Viktor Gyokeres,فيكتور جيوكيريس,ST,viktor_gyokeres.webp,MISSING_VERIFIED_ASSET
+Alexander Isak,ألكسندر إيزاك,ST,alexander_isak.webp,MISSING_VERIFIED_ASSET
+Hossam Hassan,حسام حسن,ST,hossam_hassan.webp,MISSING_VERIFIED_ASSET
+Miroslav Klose,ميروسلاف كلوزه,ST,miroslav_klose.webp,MISSING_VERIFIED_ASSET
+Robin van Persie,روبن فان بيرسي,ST,robin_van_persie.webp,MISSING_VERIFIED_ASSET
+Filippo Inzaghi,فيليبو إنزاغي,ST,filippo_inzaghi.webp,MISSING_VERIFIED_ASSET
+Edinson Cavani,إدينسون كافاني,ST,edinson_cavani.webp,MISSING_VERIFIED_ASSET
+Hernan Crespo,هرنان كريسبو,ST,hernan_crespo.webp,MISSING_VERIFIED_ASSET
+Jens Lehmann,ينس ليمان,GK,jens_lehmann.webp,MISSING_VERIFIED_ASSET
+Fabien Barthez,فابيان بارتيز,GK,fabien_barthez.webp,MISSING_VERIFIED_ASSET
+Tim Howard,تيم هاورد,GK,tim_howard.webp,MISSING_VERIFIED_ASSET
+Brad Friedel,براد فريدل,GK,brad_friedel.webp,MISSING_VERIFIED_ASSET
+Claudio Taffarel,كلاوديو تافاريل,GK,claudio_taffarel.webp,MISSING_VERIFIED_ASSET
+Mark Schwarzer,مارك شوارزر,GK,mark_schwarzer.webp,MISSING_VERIFIED_ASSET
+Pepe,بيبي,DF,pepe.webp,MISSING_VERIFIED_ASSET
+Vincent Kompany,فنسنت كومباني,DF,vincent_kompany.webp,MISSING_VERIFIED_ASSET
+Mats Hummels,ماتس هوملز,DF,mats_hummels.webp,MISSING_VERIFIED_ASSET
+Bixente Lizarazu,بيكسنت ليزارازو,DF,bixente_lizarazu.webp,MISSING_VERIFIED_ASSET
+Patrice Evra,باتريس إيفرا,DF,patrice_evra.webp,MISSING_VERIFIED_ASSET
+Eric Abidal,إيريك أبيدال,DF,eric_abidal.webp,MISSING_VERIFIED_ASSET
+Dani Carvajal,داني كارفاخال,DF,dani_carvajal.webp,MISSING_VERIFIED_ASSET
+Kieran Trippier,كيران تريبيير,DF,kieran_trippier.webp,MISSING_VERIFIED_ASSET
+Giuseppe Bergomi,جوزيبي بيرغومي,DF,giuseppe_bergomi.webp,MISSING_VERIFIED_ASSET
+Frank de Boer,فرانك دي بور,DF,frank_de_boer.webp,MISSING_VERIFIED_ASSET
+Michael Ballack,مايكل بالاك,MF,michael_ballack.webp,MISSING_VERIFIED_ASSET
+Juan Roman Riquelme,خوان رومان ريكيلمي,MF,juan_roman_riquelme.webp,MISSING_VERIFIED_ASSET
+Michael Laudrup,مايكل لاودروب,MF,michael_laudrup.webp,MISSING_VERIFIED_ASSET
+Pavel Nedved,بافيل نيدفيد,MF,pavel_nedved.webp,MISSING_VERIFIED_ASSET
+Gheorghe Hagi,جورجي حاجي,MF,gheorghe_hagi.webp,MISSING_VERIFIED_ASSET
+Juan Sebastian Veron,خوان سيباستيان فيرون,MF,juan_sebastian_veron.webp,MISSING_VERIFIED_ASSET
+Thomas Muller,توماس مولر,MF,thomas_muller.webp,MISSING_VERIFIED_ASSET
+Guti,جوتي,MF,guti.webp,MISSING_VERIFIED_ASSET
+Arturo Vidal,أرتورو فيدال,MF,arturo_vidal.webp,MISSING_VERIFIED_ASSET
+Deco,ديكو,MF,deco.webp,MISSING_VERIFIED_ASSET
+Antoine Griezmann,أنطوان جريزمان,WG,antoine_griezmann.webp,MISSING_VERIFIED_ASSET
+Juan Mata,خوان ماتا,WG,juan_mata.webp,MISSING_VERIFIED_ASSET
+Hakim Ziyech,حكيم زياش,WG,hakim_ziyech.webp,MISSING_VERIFIED_ASSET
+Willian,ويليان,WG,willian.webp,MISSING_VERIFIED_ASSET
+Jesus Navas,خيسوس نافاس,WG,jesus_navas.webp,MISSING_VERIFIED_ASSET
+Ricardo Quaresma,ريكاردو كواريزما,WG,ricardo_quaresma.webp,MISSING_VERIFIED_ASSET
+Dirk Kuyt,ديرك كاوت,WG,dirk_kuyt.webp,MISSING_VERIFIED_ASSET
+Wilfried Zaha,ويلفريد زاها,WG,wilfried_zaha.webp,MISSING_VERIFIED_ASSET
+Michael Owen,مايكل أوين,ST,michael_owen.webp,MISSING_VERIFIED_ASSET
+David Villa,دافيد فيا,ST,david_villa.webp,MISSING_VERIFIED_ASSET
+George Weah,جورج ويا,ST,george_weah.webp,MISSING_VERIFIED_ASSET
+Carlos Tevez,كارلوس تيفيز,ST,carlos_tevez.webp,MISSING_VERIFIED_ASSET
+Edin Dzeko,إدين دجيكو,ST,edin_dzeko.webp,MISSING_VERIFIED_ASSET
+Christian Vieri,كريستيان فييري,ST,christian_vieri.webp,MISSING_VERIFIED_ASSET
+Robbie Fowler,روبي فاولر,ST,robbie_fowler.webp,MISSING_VERIFIED_ASSET
+Ian Wright,إيان رايت,ST,ian_wright.webp,MISSING_VERIFIED_ASSET
+Mario Gomez,ماريو جوميز,ST,mario_gomez.webp,MISSING_VERIFIED_ASSET
+Gonzalo Higuain,غونزالو هيغواين,ST,gonzalo_higuain.webp,MISSING_VERIFIED_ASSET
