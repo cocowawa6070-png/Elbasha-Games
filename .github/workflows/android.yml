@@ -13,6 +13,9 @@ jobs:
     name: Build debug APK
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      SUPABASE_URL: ${{ vars.SUPABASE_URL || secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || vars.SUPABASE_ANON_KEY }}
 
     steps:
       - name: Checkout source
@@ -43,6 +46,18 @@ jobs:
           echo "PROJECT_DIR=$PROJECT_DIR" >> "$GITHUB_ENV"
           echo "Using Android project at: $PROJECT_DIR"
 
+      - name: Validate Supabase public key configuration
+        shell: bash
+        run: |
+          if [[ -z "${SUPABASE_URL:-}" ]]; then
+            echo "::error::Add the Supabase project URL as repository variable SUPABASE_URL before building this version."
+            exit 1
+          fi
+          if [[ -z "${SUPABASE_ANON_KEY:-}" ]]; then
+            echo "::error::Add the Supabase anon/publishable key as repository secret SUPABASE_ANON_KEY before building this version."
+            exit 1
+          fi
+
       - name: Validate player catalog and first-release scope
         working-directory: ${{ env.PROJECT_DIR }}
         run: python3 tools/validate_catalog.py
@@ -53,22 +68,22 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK command-line tools and accept licenses
+      - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          cmdline-tools-version: '12266719'
-          # The action handles license acceptance itself. Do not run `yes | sdkmanager` again.
-          accept-android-sdk-licenses: 'true'
-          log-accepted-android-sdk-licenses: 'false'
-          # Empty skips the v3 legacy default package list, which includes removed `tools`.
-          packages: ''
 
-      - name: Install required Android SDK packages
-        shell: bash
+      - name: Accept Android SDK licenses and install build tools
         run: |
-          sdkmanager --install platform-tools 'platforms;android-36' 'build-tools;36.0.0'
-          test -x "$ANDROID_HOME/build-tools/36.0.0/apksigner"
-          test -d "$ANDROID_HOME/platforms/android-36"
+          # sdkmanager closes stdin after the final prompt; yes may then exit with SIGPIPE.
+          # Preserve the sdkmanager exit code while tolerating that expected producer close.
+          set +o pipefail
+          yes | sdkmanager --licenses >/dev/null 2>&1
+          license_status="${PIPESTATUS[1]}"
+          set -o pipefail
+          if [[ "$license_status" -ne 0 ]]; then
+            echo "Android SDK license acceptance failed with status $license_status"
+            exit "$license_status"
+          fi
+          sdkmanager --install "platform-tools" "platforms;android-36" "build-tools;36.0.0"
 
       - name: Install Gradle 8.14.4
         shell: bash
