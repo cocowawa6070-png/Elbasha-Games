@@ -68,13 +68,16 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      # Empty packages disables setup-android's obsolete default "tools" package.
+      # We install the exact modern SDK packages explicitly in the next step.
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: ''
 
-      - name: Accept Android SDK licenses and install build tools
+      - name: Accept Android SDK licenses and install required packages
+        shell: bash
         run: |
-          # sdkmanager closes stdin after the final prompt; yes may then exit with SIGPIPE.
-          # Preserve the sdkmanager exit code while tolerating that expected producer close.
           set +o pipefail
           yes | sdkmanager --licenses >/dev/null 2>&1
           license_status="${PIPESTATUS[1]}"
@@ -83,7 +86,11 @@ jobs:
             echo "Android SDK license acceptance failed with status $license_status"
             exit "$license_status"
           fi
-          sdkmanager --install "platform-tools" "platforms;android-36" "build-tools;36.0.0"
+
+          sdkmanager --install \
+            "platform-tools" \
+            "platforms;android-36" \
+            "build-tools;36.0.0"
 
       - name: Install Gradle 8.14.4
         shell: bash
@@ -113,9 +120,6 @@ jobs:
             STORE_PASSWORD="$ANDROID_DEBUG_KEYSTORE_PASSWORD"
             echo "Signing mode: stable repository key"
           else
-            # Keep the build/test pipeline usable before private GitHub secrets are configured.
-            # Google Sign-In requires registering this generated certificate's SHA fingerprints;
-            # for a stable Google login test, configure both repository secrets using SIGNING_SETUP.md.
             STORE_PASSWORD="android"
             keytool -genkeypair -v \
               -keystore "$KEYSTORE_PATH" \
